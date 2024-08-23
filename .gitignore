@@ -8,7 +8,6 @@ __pycache__/
 
 # メモなど
 .memo/
-test/
 
 # OpenAI API キー（セキュリティ上重要）
 .env
