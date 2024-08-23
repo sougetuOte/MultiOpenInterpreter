@@ -1,0 +1,24 @@
+# Python関連
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 仮想環境
+.venv/
+
+# メモなど
+.memo/
+
+# OpenAI API キー（セキュリティ上重要）
+.env
+
+# ログファイル
+*.log
+
+# システムファイル
+.DS_Store
+Thumbs.db
+
+# OpenInterpreter特有のファイル（必要に応じて）
+# ここにOpenInterpreter固有のファイルやディレクトリを追加
+

@@ -1,0 +1,45 @@
+{
+    "coordinator_model": "chatgpt-4o-latest",
+    "agent_model": "gpt-4o-mini",
+    "auto_run": true,
+    "require_user_approval": true,
+    "debug_mode": false,
+    "local": true,
+    "max_iterations": 3,
+    "log_level": "INFO",
+    "log_file": "agent_chat.log",
+    "agents": [
+        {
+            "name": "太郎",
+            "personality": "論理的",
+            "expertise": "マネジメント, プログラミング",
+            "role": "コーディネーター",
+            "is_coordinator": true,
+            "priority": 1
+        },
+        {
+            "name": "花子",
+            "personality": "創造的",
+            "expertise": "デザイン",
+            "role": "クリエイティブアドバイザー",
+            "is_coordinator": false,
+            "priority": 3
+        },
+        {
+            "name": "次郎",
+            "personality": "分析的",
+            "expertise": "データ分析",
+            "role": "技術アナリスト",
+            "is_coordinator": false,
+            "priority": 2
+        },
+        {
+            "name": "三郎",
+            "personality": "革新的",
+            "expertise": "プログラミング",
+            "role": "ソフトウェアエンジニア",
+            "is_coordinator": false,
+            "priority": 4
+        }
+    ]
+}
